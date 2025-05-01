@@ -1,0 +1,25 @@
+/* 
+MAIN COLOR: #e67700;
+GRAY COLOR on image: #f8f9fa
+GRAY COLOR on text: #212529
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #212529;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/assets/hero.jpg");
+  background-position: top;
+  background-size: cover;
+  color: #f8f9fa;
+}
