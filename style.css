@@ -1,5 +1,5 @@
 /* 
-MAIN COLOR: #e67700;
+MAIN COLOR: #fd7e14
 GRAY COLOR on image: #f8f9fa
 GRAY COLOR on text: #212529
 */
@@ -21,17 +21,13 @@ nav {
   justify-content: space-between;
 }
 
-main {
-  width: 50%;
-}
-
 nav a:link,
 nav a:active,
 nav a:visited {
   text-decoration: none;
-  color: #f8f9fa;
   font-weight: 700;
   font-size: 16px;
+  color: #f8f9fa;
 }
 
 header {
@@ -43,4 +39,23 @@ header {
   background-position: top;
   background-size: cover;
   color: #f8f9fa;
+}
+
+main {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.btn--start {
+  padding: 10px 24px;
+  background-color: #fd7e14;
+  align-self: start;
+  border: none;
+  border-radius: 6px;
+  color: #f8f9fa;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0px 2px 2px #212529;
 }
