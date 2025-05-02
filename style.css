@@ -26,7 +26,7 @@ nav a:active,
 nav a:visited {
   text-decoration: none;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   color: #f8f9fa;
 }
 
@@ -39,13 +39,26 @@ header {
   background-position: top;
   background-size: cover;
   color: #f8f9fa;
+  position: relative;
 }
 
 main {
-  max-width: 60%;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  transform: ;
   display: flex;
   flex-direction: column;
   gap: 48px;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+p {
+  font-size: 20px;
 }
 
 .btn--start {
@@ -55,7 +68,8 @@ main {
   border: none;
   border-radius: 6px;
   color: #f8f9fa;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  box-shadow: 0px 2px 2px #212529;
+  box-shadow: 0px 1px 1px #495057;
+  cursor: pointer;
 }
