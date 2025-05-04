@@ -32,14 +32,13 @@ nav a:visited {
 
 header {
   height: 100vh;
-  padding: 36px 108px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  padding: 36px 10rem;
+  background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),
     url("/assets/hero.jpg");
   background-position: top;
   background-size: cover;
   color: #f8f9fa;
   position: relative;
-  opacity: 0.9;
   margin-bottom: 4rem;
 }
 
